@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* HOME */
+#home{
+  background: rgb(0, 101 , 219);
+  background: linear-gradient(90deg, rgb(0, 101 , 219) 50%, rgba(0, 212 , 255, 1)100%);
+  min-height: 500px;
+}
+
+/* CARDS */
+.card{
+  transition: all 0.5s ease;
+}
+.card:hover{
+  cursor: pointer;
+  box-shadow: 0 .5rem 1rem rgba(0, 0 , 0, 15);
+}
+
+/* Form */
+.form{
+  background: rgb(0, 101 , 219);
+  background: linear-gradient(90deg, rgb(0, 101 , 219) 30%, rgba(0, 212 , 255, 1)100%); 
+}
+
+/* Footer */
+.footer{
+  background: rgb(0, 101 , 219);
+  background: linear-gradient(90deg, rgb(0, 101 , 219) 40%, rgba(0, 212 , 255, 1)100%);
+}
+
+body {
+  background-color: rgb(226, 227, 240);
+}
+
+.cardB {
+  margin: 19px;
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  background: var(--i);
+  background-size: cover;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+}
+
+.contentB {
+  width: 120%;
+  height: 100%;
+  display: flex;
+  padding: 15px;
+  margin-left: -15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, .4);
+  opacity: 0.1;
+  transition: .5s;
+}
+
+.contentB h2, a {
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.cardB:hover .contentB {
+  background: rgba(41, 39, 48, 0.8);
+  opacity: 1;
+}
+
+.margin1 {
+  margin-top: 35px;
+}
+.margin2 {
+  margin-bottom: 35px;
+}
+
+.colorbarra{
+  background-color: #44494d;
+}
+
+/**SEARCH**/
+
+.select-search {
+  justify-content: center;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.search {
+  width: 500px;
+}
